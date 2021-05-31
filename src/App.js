@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header';
 import Footer from './components/footer';
-import Content from './components/content';
+import Routes from './routes';
 
 class App extends Component {
   render () {
     return (
       <div className="App">
         <Header />
-        <Content />
+        <Routes />
         <Footer />
       </div>
     );
