@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 class Login extends Component {
 	render() {
 		return (
 			<div>
-				<form action="/home" method="">
+				<form action="http://localhost:8080/auth" method="POST">
 					Usuário
 					<br />
 					<input type="text" id="usuario" name="usuario" />
